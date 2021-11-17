@@ -49,7 +49,7 @@ h2 {
 }
 
 main {
-  background: url(https://media.giphy.com/media/xUNd9YJwF6ifDUnqNi/giphy.gif)
+  background: url("https://media.giphy.com/media/xUNd9YJwF6ifDUnqNi/giphy.gif")
     center center no-repeat black;
   background-size: cover;
   max-width: 800px;
