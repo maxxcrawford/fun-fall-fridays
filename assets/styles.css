@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "speedeasy_speedyregular";
+  src: url("fonts/speedeasyspeedy-v1ol-webfont.woff2") format("woff2"),
+    url("fonts/speedeasyspeedy-v1ol-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Teko", sans-serif;
+  background: url("https://media.giphy.com/media/QxkDpju5ixZguBZFOa/giphy.gif")
+    bottom center no-repeat;
+  background-size: cover;
+  background-color: black;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem 0 0;
+}
+
+header {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+header h1 {
+  font-family: "speedeasy_speedyregular";
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Ultra", serif;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+}
+
+main {
+  background: url(https://media.giphy.com/media/xUNd9YJwF6ifDUnqNi/giphy.gif)
+    center center no-repeat black;
+  background-size: cover;
+  max-width: 800px;
+  padding: 2rem 4rem;
+  min-height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+h3 {
+  line-height: 2rem;
+  font-weight: 400;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+p {
+    line-height: 2rem;
+}
+
+p a {
+  color: orange;
+}
+
+.sticky {
+  position: absolute;
+  z-index: 1;
+}
+
+.top-left {
+  top: -150px;
+  left: -150px;
+  transform: rotate(-15deg);
+}
+
+.bottom-right {
+  right: -100px;
+  bottom: -25px;
+  max-width: 200px;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
